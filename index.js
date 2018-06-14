@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import TabFavorites from './favorites';
+import TabDownloads from './downloads';
+import TabMore from './more';
 
 import {
   AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TextInput,
-  Button,
-  TouchableHighlight,
   TabBarIOS,
 } from 'react-native';
 
@@ -58,46 +53,5 @@ class VisionTabBarIOS extends Component {
   }
 
 }
-
-/**
- * Downloads Tab
- */
-class TabDownloads extends Component {
-
-  render() {
-    return (
-      <View style={styles.tabContent}>
-        <Text style={styles.tabText}>Downloads</Text>
-      </View>
-    );
-  }
-
-}
-
-/**
- * More Tab
- */
-class TabMore extends Component {
-
-  render() {
-    return (
-      <View style={styles.tabContent}>
-        <Text style={styles.tabText}>More</Text>
-      </View>
-    );
-  }
-
-}
-
-var styles = StyleSheet.create({
-  tabContent: {
-    flex: 1,
-    alignItems: 'center'
-  },
-  tabText: {
-    margin: 50,
-    fontSize: 40
-  }
-});
 
 AppRegistry.registerComponent('RNExample', () => VisionTabBarIOS);
