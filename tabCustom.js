@@ -1,5 +1,5 @@
 /**
- * Downloads Tab
+ * Custom Tab
  */
 
 import React, { Component } from 'react'; 
@@ -11,12 +11,12 @@ import {
 
 var styles = require('./styles');
 
-export default class TabDownloads extends Component {
+export default class TabCustom extends Component {
 
   render() {
     return (
       <View style={styles.tabContent}>
-        <Text style={styles.tabText}>Hello World</Text>
+        <Text style={styles.tabText}>Custom text</Text>
       </View>
     );
   }

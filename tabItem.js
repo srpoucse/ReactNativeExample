@@ -11,7 +11,7 @@ import {
 
 var styles = require('./styles');
 
-export default class TabDownloads extends Component {
+export default class TabItem extends Component {
 
   render() {
     return (
