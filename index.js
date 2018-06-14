@@ -4,6 +4,7 @@ import TabDownloads from './downloads';
 import TabMore from './more';
 import TabItem from './tabItem';
 import TabCustom from './tabCustom';
+import Banner from './banner';
 
 import {
   AppRegistry,
